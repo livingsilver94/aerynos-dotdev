@@ -6,6 +6,10 @@ extend-ignore-re = [
     # Ignore blocks between `spellchecker:off` and `spellchecker:on`
     "spellchecker:off.*?\\n*.*spellchecker:on",
 ]
+extend-ignore-words-re = [
+    # Specifically for the "General FAQ" page.
+    '\"aer\"',
+]
 
 [files]
 extend-exclude = ["/package-lock.json"]
